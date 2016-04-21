@@ -7,14 +7,16 @@
 	<script src="js/script.js"></script>
 </head>
 <body>
-	<nav>
-		<ul>
-			<a class="menu" href="home">Home</a>
-			<a class="menu" href="jersey">Jersey</a>
-			<a class="menu" href="shoes">Shoes</a>
-			<a class="menu" href="contact">Conttact</a>
-		</ul>
-	</nav>
-	<%= yield %>
+	<div class="wrapper">
+		<nav>
+			<ul>
+				<a class="menu" href="home">Home</a>
+				<a class="menu" href="jersey">Jersey</a>
+				<a class="menu" href="shoes">Shoes</a>
+				<a class="menu" href="contact">Contact</a>
+			</ul>
+		</nav>
+		<%= yield %>
+	</div>	
 </body>
 </html>

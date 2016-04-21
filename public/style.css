@@ -1,19 +1,45 @@
 body {
- border: solid 1px #ffffff ;
  height: 560px;
- width: 950px;
- background: black;
- text-align: center;
+ background: #C8C8C8;
  font-family: "didot", didot; 
 }
 
-nav li {
- border: solid 3px #ffffff ;
- display: inline-block;
- line-height: 50px;
- width: 250px;
+.wrapper{
+	margin: 0 auto;
+	background: white;
+	text-align: center;
+	height: 1000px;
+	width: 1120px;
 }
 
-nav {
- font-size: 8px;
+.menu {
+ border: solid 3px black;
+ display: inline-block;
+ line-height: 50px;
+ font-size: 45px;
+ margin: 40px;
+}
+
+nav	{
+	margin: 0 auto;
+	width: 1120px;
+}
+
+#inews {
+	margin-top: 16px;
+	height: 373px;
+	width: 580px;
+	float: left;
+}
+
+#knews {
+	border: solid 1px black;
+	padding-top: 10px;
+	/*height: 375px;*/
+	width: 500px;
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 1px;
+	text-align: center;
+	padding-left: 15px;
 }
