@@ -1,0 +1,19 @@
+body {
+ border: solid 1px #ffffff ;
+ height: 560px;
+ width: 950px;
+ background: black;
+ text-align: center;
+ font-family: "didot", didot; 
+}
+
+nav li {
+ border: solid 3px #ffffff ;
+ display: inline-block;
+ line-height: 50px;
+ width: 250px;
+}
+
+nav {
+ font-size: 8px;
+}
