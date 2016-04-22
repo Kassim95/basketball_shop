@@ -1,6 +1,6 @@
 body {
  height: 560px;
- background: #003399;
+ background: #00004d;
  font-family: "didot", didot; 
 }
 
@@ -8,29 +8,34 @@ body {
 	margin: 0 auto;
 	background: white;
 	text-align: center;
-	height: 1000px;
+	height: 1400px;
 	width: 1120px;
-	background-color:#3377ff;
+	font-color: white;
+/*	background-color:#3377ff;*/
 	border-radius: 10px;
 }
 
 .menu {
- border: solid 1px black;
  display: inline-block;
  line-height: 50px;
- font-size: 45px;
+ font-size: 35px;
  margin: 30px;
- padding: 35px;
+ padding: 5px;
  border-radius: 10px;
+ color: white;
+ text-decoration: none;
 }
 
 nav	{
 	margin: 0 auto;
 	width: 1120px;
 	border-bottom: solid 1px;
-	height: 160px;
+	height: 85px;
 	background:  #001a4d;
-	border-radius: 10px;
+	background: black;
+	border-top: solid 1px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 #inews {
@@ -40,33 +45,45 @@ nav	{
 	float: left;
 }
 
+.na {
+	font-size: 100px;
+/*	font-family: Impact, Charcoal, sans-serif;*/
+	color: grey;
+	margin: 0px;
+}
+
 #knews {
-	border: solid 1px black;
-	padding-top: 10px;
+	font-size: 22px;
+	color: grey;
+	/*padding-top: 10px;*/
 	/*height: 375px;*/
-	width: 500px;
-	float: right;
-	padding-right: 20px;
-	padding-bottom: 1px;
-	text-align: center;
-	padding-left: 15px;
+/*	width: 500px;*/
+/*	float: left;*/
+	/*padding-right: 20px;
+	padding-bottom: 1px;*/
+/*	text-align: center;*/
+/*	padding-left: 15px;*/
 }
 
 .thumbnail{
-	border:solid;
+	border:solid 1px;
 	float: left;
-	width: 200px
-	height:100px;
+	width: 220px;
+	height: 350px;
 	margin: 10px;
 }
 
 .nav2 {
 
 	float: left;
-	border: solid;
-	height: 600px;
+	border-right: solid 1px;
+	height: 1100px;
 	width: 300px;
+	margin-right: 80px;
 
+}
+.title_n{
+	color: grey
 }
 
 * {
@@ -109,6 +126,7 @@ ul {
 	cursor: pointer;
 }
 .wrapper2 {
+	/*background-color: white;*/
 	position: relative;
 	margin: 0 auto;
 }
@@ -118,21 +136,26 @@ ul {
 
 /* Slider ----------- */
 #content {
-	margin-top: 40px;
+	/*background color: white;*/
 	height: 250px;
+	width: 1120px;
 }
 .slider-wrap {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
+	background-color: white;
+
 }
 .slider-wrap img {
 	max-height: 200px;
+	background-color: white;
 }
 .slider {
 	width: 9999em;
 	position: relative;
 	left: 0;
+	background-color: white;
 }
 .slide {
 	position: relative;
@@ -143,6 +166,7 @@ ul {
 	border-right: 3px solid #aaa;
 	border-left: 3px solid #aaa;
 	float: left;
+	background-color: white;
 }
 .slider-wrap .arrow {
 	position: absolute;
@@ -155,6 +179,7 @@ ul {
 	margin: 1em;
 	-webkit-transition: all .3s ease;
 	display: none;
+	background-color: white;
 }
 .arrow:hover {
 	background: rgba(0,0,0,.5);
@@ -179,10 +204,12 @@ ul {
 	border-radius: 50px;
 	cursor: pointer;
 	-webkit-transition: all .3s ease;
+/*	background-color: white;*/
 }
 .slider-wrap > ul li:hover {
 	-webkit-transition: all .3s ease;
 	border-color: rgba(0,0,0,.5);
+/*	background-color: white;*/
 }
 .circle {
 	display: block;
@@ -191,10 +218,12 @@ ul {
 	background: rgba(0,0,0,.3);
 	border-radius: 50px;
 	-webkit-transition: all .3s ease;
+/*	background-color: white;*/
 }
 .circle:hover {
 	-webkit-transition: all .3s ease;
 	background: rgba(0,0,0,.5);
+/*	background-color: white;*/
 }
 
 /* Smartphones ----------- */
@@ -220,6 +249,16 @@ ul {
 	width: 1000px;
 
 }
+#wrapper3 {
+    width:600px; 
+    margin: 0 auto; 
+    background:#fff; 
+    text-align:left; 
+    border:1px solid #ccc;
+    border-top:none; 
+    padding:25px; 
+    text-align: center;
+}
 #modal {
     position:fixed; 
     top:0; 
@@ -239,22 +278,36 @@ ul {
     font-size:12px; 
     position: relative;
 }
-#content{
+#content2{
     background: white;
-    width: 400px;
+    margin: 0 auto;
+    width: 500px;
     height: 250px;
     padding: 20px;
     margin-left: 290px;
     margin-top: 10px;
     padding-top: 30px;
-    padding-left: 150px;
+    padding-left: 40px;
+    padding-bottom: 275px;
     z-index: 2;
     position: absolute;
 }
 .contact{
     height: 500px;
 }
-
+.jersey{
+	height: 200px;
+	width: 200px;
+}
+.shoes{
+	height: 200px;
+	width: 200px;
+}
+.modal-link{
+	font-size: 30px;
+	 text-decoration: none;
+	 color: grey;
+}
 
 
 
