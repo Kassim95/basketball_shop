@@ -18,4 +18,6 @@ end
 
 post '/send' do
 	puts "my params are " + params.inspect
+	redirect '/'
 end
+
